@@ -3,7 +3,7 @@ onLoadIntro = "Defend The Position";
 onLoadName = "Arma 3 Survival";
 briefingName = "Arma 3 Survival";
 overviewText = "Survive waves of enemies";
-author = "Hilltop(Willtop) & omNomios (Modified by Ansible2 // Cipher & Spectre)";
+author = "Hilltop(Willtop) & omNomios [(Modified by Ansible2 // Cipher & Spectre) Modified by TFD Mission Dev]";
 overviewPicture = "preview.paa";
 
 loadScreen = "preview.paa";
@@ -26,7 +26,7 @@ ReviveRequiredItemsFakConsumed = 1;
 enableDebugConsole = 2;
 
 corpseManagerMode = 1; // manage all units
-corpseLimit = 50;
+corpseLimit = 25;
 corpseRemovalMinTime = 30;
 corpseRemovalMaxTime = 1200;
 wreckManagerMode = 1;		// manage all wrecks
@@ -62,7 +62,7 @@ class CfgDebriefing
 	{
 		title = "[END]";
 		subtitle = "You Did Not Survive";
-		description = "Game Over";
+		description = "Game over, man! Game over!";
 		pictureBackground = "";
 		picture = "KIA";
 		pictureColor[] = {0.6,0.1,0.2,1};
@@ -71,7 +71,7 @@ class CfgDebriefing
 	{
 		title = "[SAFE]";
 		subtitle = "You Won";
-		description = "You Survived";
+		description = "How?";
 		pictureBackground = "";
 		picture = "b_inf";
 		pictureColor[] = {0.0,0.3,0.6,1};
